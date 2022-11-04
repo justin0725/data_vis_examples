@@ -50,7 +50,7 @@ Justin Giles
 #### The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals of those averages. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
 <br/>
 <img src="/img/pierson_plot1.png" width="900px" />
-<br/>
+<br/> 
 
 #### Unlike Pierson et al., I did not find a statistically significant effect of the “veil of darkness” on the liklihood of a driver pulled over being black.
 
