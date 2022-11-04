@@ -7,7 +7,7 @@ I spent a lot of my first year as an MPP coding.  Here's some fruits of that lab
 # North Carolina funds education at the state level.  That's unusual!
 For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  As a result, a school in a poor area becomes far more likely to be underresourced.  Because the majority of North Carolina schools' funds come from the state, schools in poor districts may receive aid from elsewhere.  Unfortately, other inequities prevent this system from achieving its full potential (more on that later).
 <br/>
-<img src="/img/nc_funding.png" width="700px" />
+<img src="/img/nc_funding.png" width="500px" />
 <br/>
 
 # Does voting make people want to learn about public policy?
