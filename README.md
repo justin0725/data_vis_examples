@@ -20,11 +20,11 @@ The plot below displays the results, as replicated by me.  It charts the variati
 
 While there is a statistically significant jump in voting at age 18, there is *not* a statistically significant jump in policy knowlegde, lending support to the rational ignorance hypothesis.
 <br/>
-<img src="/img/RDD_plot.png" width="900px" />
+<img src="/img/RDD_plot.png" width="700px" />
 
 As part of the same analysis, I performed multiple tests to show that voting not only increases at age 18, but increases by a statistically significant amount (while other relevant covariates don't change much). A bar chart with error bars is a simple way to show this.
 
-<img src="/img/balance_VOTE.png" width="900px" />
+<img src="/img/balance_VOTE.png" width="700px" />
 <br/>
 
 # Does DACA incentivize immigrants to invest more in the U.S.?
@@ -32,7 +32,7 @@ As part of the same analysis, I performed multiple tests to show that voting not
 The below use's Pope's data, but  displays the coefficients from my own modified OLS model looking at the interaction effect of DACA elgiibility and arriving after DACA became available (as opposed to before).
 The results suggest that DACA incentivized immigrants to enter the labor force and work more hours.
 <br/>
-<img src="/img/pope_table2.jpg" width="900px" />
+<img src="/img/pope_table2.jpg" width="800px" />
 <br/> <br/> <br/>
 
 # Illustrating Inequities in North Carolina K-12 Education
@@ -58,7 +58,7 @@ The traffic stop data includes the time every traffic stop and the race of the d
 
 The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals of those averages. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
 
-<img src="/img/pierson_plot1.png" width="900px" />
+<img src="/img/pierson_plot1.png" width="700px" />
 <br/> 
 
 Unlike Pierson et al., I did not find a statistically significant effect of the “veil of darkness” on the liklihood of a driver pulled over being black.
@@ -69,4 +69,4 @@ There are lots of reasons their result might fail to replicate for the North Car
 
 # Last but not least, I made this plot just for fun!
 Corgi fans have put in the work, but Labs still reign supreme!
-<img src="/img/dogs.png" width="900px" />
+<img src="/img/dogs.png" width="800px" />
