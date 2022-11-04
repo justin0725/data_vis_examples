@@ -8,15 +8,15 @@ Justin Giles
 <br/>
 
 # Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
-#### Some people argue that voting gives voters an incentive to learn more about policy.  Other argue that because the marginal effect of a single vote on an election is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis). But to asses these claims, we can't just look at whether voters know more about policy because the relationship might not be causal (for example, maybe the same type of person who chooses to vote is also the type of person who wants to learn about policy).
+#### Some people argue that voting gives voters an incentive to learn more about policy.  Others argue that because the marginal effect of a single vote on an election's outcome is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis). But to asses these claims, we can't just look at whether voters know more about policy because the relationship might not be causal.  For example, maybe the same type of person who chooses to vote is also the type of person who wants to learn about policy.
 #### Lopez de Leon and Rizzi's analysis take advantage of the fact that people in Brazil *can* vote before age 18 but *must* vote after age 18. Voting incentives learning about policy, we should see a spike in policy knowledge at age 18 that corresponds to a spike in voting.
 #### The plot below displays the results, as replicated by me.  It charts the variation in two variables (age and policy quiz scores) that is not explained by a variety of controls (retrieved through two OLS models of each outcome variable on the controls). It includes best fit lines found through local linear regressions, as well as a 95% confidence interval ribbon.
 #### While there is a statistically significant jump in voting at age 18, there is *not* a statistically significant jump in policy knowlegde, lending support to the rational ignorance hypothesis.
 <br/>
 <img src="/img/RDD_plot.png" width="900px" />
-<br/>
+
 #### As part of the same analysis, I performed multiple tests to show that voting not only increases at age 18, but increases by a statistically significant amount (while other relevant covariates don't change much). A bar chart with error bars is a simple way to show this.
-<br/>
+
 <img src="/img/balance_VOTE.png" width="900px" />
 <br/>
 
