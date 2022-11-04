@@ -59,5 +59,5 @@ Justin Giles
 <br/>
 
 # Last but not least, I made this plot just for fun!
-#### Frenchie fans have put in the work, but Labs still reign supreme!
+#### Corgi fans have put in the work, but Labs still reign supreme!
 <img src="/img/dogs.png" width="900px" />
