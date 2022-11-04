@@ -44,9 +44,9 @@ Justin Giles
 #### The first plot below depicts an OLS model of the relationship between North Carolina school districts’ average SAT scores and median household incomes. The second plot puts the residuals from the first plot’s model on the y-axis in an attempt to capture the relationship between a district’s SAT score and racial makeup, isolated from the effect of income.
 
 <br/>
-<img src="/img/income.png" width="600px" />
+<img src="/img/Income.png" width="600px" />
 <br/> <br/>
-<img src="/img/race.png" width="600px" />
+<img src="/img/Race.png" width="600px" />
 <br/> <br/> <br/>
 
 #### For another one of my MPP classes, I replicated the results of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) testing traffic stop data for evidence of racial discrimination. I used only the subset of their data from North Carolina. The below plot is from that analysis. The complicated nature of the analysis means that interpretting the plot takes some work - but I think it’s worth it! (Well, for their paper at least)
