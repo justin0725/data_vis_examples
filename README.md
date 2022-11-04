@@ -2,7 +2,7 @@ Data Analysis and Visualization from My MPP
 ================
 Justin Giles
 
-#### I spent a lot of my first year as an MPP coding.  Here's some fruits of that labor!
+I spent a lot of my first year as an MPP coding.  Here's some fruits of that labor!
 
 # North Carolina funds education at the state level.  That's unusual!
 For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  As a result, a school in a poor area becomes far more likely to be underresourced.  Because the majority of North Carolina schools' funds come from the state, schools in poor districts may receive aid from elsewhere.  Unfortately, other inequities prevent this system from achieving its full potential (more on that later).
@@ -37,7 +37,7 @@ The results suggest that DACA incentivized immigrants to enter the labor force a
 
 # Illustrating Inequities in North Carolina K-12 Education
 In spring 2022, I worked with a team of students to help a North Carolina philanthropy decide how it might use its resources to advance equity in K-12 education.  As part of my team's overview on the issues currently facing the state, I depicted the association between wealth, race, and educational outcomes in the plots below.
-#### The first plot below depicts the relationship between North Carolina school districts’ average SAT scores and median household incomes. The second plot puts the residuals from the first plot’s OLS model (regressing SAT score on income) on the y-axis. This illustrates the relationship between a district’s SAT score and racial makeup, isolated from the effect of income.
+The first plot below depicts the relationship between North Carolina school districts’ average SAT scores and median household incomes. The second plot puts the residuals from the first plot’s OLS model (regressing SAT score on income) on the y-axis. This illustrates the relationship between a district’s SAT score and racial makeup, isolated from the effect of income.
 <br/>
 <img src="/img/Income.png" width="600px" />
 <br/> <br/>
