@@ -4,7 +4,10 @@ Justin Giles
 
 I spent a lot of my first year as an MPP coding.  Here's some fruits of that labor!
 
-# Despite a decent funding model, K-12 education in North Carolina remains inequitable
+# Table of contents
+1. [Inequitable Education in North Carolina](#schools)
+
+# Despite a decent funding model, K-12 education in North Carolina remains inequitable <a name="schools"></a>
 For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  As a result, a school in a poor area becomes far more likely to be underresourced.  Because the majority of North Carolina schools' funds come from the state, schools in poor districts may receive aid from elsewhere.
 
 But is this model doing enough for disadvantaged districts?  The numbers say no.  The plots below show that educational outcomes remain worse for districts with more low-income and minority race students.
@@ -18,7 +21,7 @@ The first plot below depicts the relationship between North Carolina school dist
 <br/>
 So if the funding model isn't the issue, what is?  I'm a lot less certain about that, but the following points are at least part of the answer:
 1. **Overall funding for K-12 education remains far too low.** A good funding model can't make up for a lack of money going into it. North Carolina has yet to meet funding requirements [ordered by the state supreme court](https://www.youtube.com/watch?v=ye5nf6vz_9w&t=9s) over twenty years ago. The court-ordered [WestEd report](https://www.wested.org/resources/leandro-north-carolina/) can help the state figure out how to spend the money, if it ever provides it.
-2. **The state struggles to retain good teachers and to send them where they matter most.** A high-quality teachers can make a big difference in educational outcomes.  But at current funding levels, research points to virtually no effect of pay raises on teacher retention, especially schools where a majority of students are nonwhite.
+2. **The state struggles to retain good teachers and to send them where they matter most.** A high-quality teacher can make a [big difference](https://www.aeaweb.org/articles?id=10.1257/aer.104.9.2633) in educational outcomes.  But at current funding levels, research points to virtually no effect of pay raises on [teacher retention](https://direct.mit.edu/edfp/article/6/3/399/10143/Teacher-Mobility-School-Segregation-and-Pay-Based), especially [schools where a majority of students are nonwhite](https://www.edworkingpapers.com/ai21-455).
 
 # Does voting make people want to learn about public policy?
 ### Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
