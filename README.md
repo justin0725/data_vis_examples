@@ -2,7 +2,7 @@ Data Analysis and Visualization from My MPP
 ================
 Justin Giles
 
-#### This file showcases some of the data analytic and visualization work I did over the past year as an MPP student.
+#### I spent a lot of my first year as an MPP coding.  Here's some fruits of that labor!
 <br/>
 <img src="/img/nc_funding.png" width="700px" />
 <br/>
