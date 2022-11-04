@@ -13,8 +13,11 @@ For all North Carolina's issues with K-12 education funding, the overall model i
 # Does voting make people want to learn about public policy?
 ### Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
 Some people argue that voting gives voters an incentive to learn more about policy.  Others argue that because the marginal effect of a single vote on an election's outcome is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis). But to asses these claims, we can't just look at whether voters know more about policy because the relationship might not be causal.  For example, maybe the same type of person who chooses to vote is also the type of person who wants to learn about policy.
+
 Lopez de Leon and Rizzi's analysis take advantage of the fact that people in Brazil *can* vote before age 18 but *must* vote after age 18. Voting incentives learning about policy, we should see a spike in policy knowledge at age 18 that corresponds to a spike in voting.
+
 The plot below displays the results, as replicated by me.  It charts the variation in two variables (age and policy quiz scores) that is not explained by a variety of controls (retrieved through two OLS models of each outcome variable on the controls). It includes best fit lines found through local linear regressions, as well as a 95% confidence interval ribbon.
+
 While there is a statistically significant jump in voting at age 18, there is *not* a statistically significant jump in policy knowlegde, lending support to the rational ignorance hypothesis.
 <br/>
 <img src="/img/RDD_plot.png" width="900px" />
@@ -54,7 +57,7 @@ For this analysis, I used only the subset of Pierson et al.'s data from North Ca
 The traffic stop data includes the time every traffic stop and the race of the driver. In the below plot, I look at just traffic stops that occurred between 7pm and 7:15pm.  This helps control for potentially confounding variables like what officers are on shift, who is out and about on the roads, etc. At this time, it may be light or dark depending on the time of year. I compare traffic stops made in this 15 minute chunk that were 60 to 30 minutes before dark, and 0 to 30 minutes after dark (the period from 30 to 0 minutes before dark is neither dark nor light, so traffic stops in that time get removed). The idea is that if percent of stopped drivers decreases when it is dark - when officers can no longer see the race of the person driving the car - that’s evidence of racial bias in traffic stops.
 
 The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals of those averages. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
-<br/>
+
 <img src="/img/pierson_plot1.png" width="900px" />
 <br/> 
 
