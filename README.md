@@ -2,7 +2,7 @@ Data Visualization Examples
 ================
 Justin Giles
 
-#### I produce a lot of data visualizations in R - you can see some of them here! I’m hoping to eventually update this repository to include the code for each visualization too - but that’s work for another day.
+#### I produce a lot of data visualizations in R - you can see some of them here! I’m hoping to eventually update this repository to include the code for each visualization, but that’s work for another day.
 
 #### I made this chart for North Carolina philanthropy that works with public schools.
 
