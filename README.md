@@ -4,44 +4,50 @@ Justin Giles
 
 I spent a lot of my first year as an MPP coding.  Here's some fruits of that labor!
 
-# North Carolina funds education at the state level.  That's unusual!
-For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  As a result, a school in a poor area becomes far more likely to be underresourced.  Because the majority of North Carolina schools' funds come from the state, schools in poor districts may receive aid from elsewhere.  Unfortately, other inequities prevent this system from achieving its full potential (more on that later).
-<br/>
-<img src="/img/nc_funding.png" width="500px" />
-<br/>
+# Despite a decent funding model, K-12 education in North Carolina remains inequitable
+For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  As a result, a school in a poor area becomes far more likely to be underresourced.  Because the majority of North Carolina schools' funds come from the state, schools in poor districts may receive aid from elsewhere.
 
-# Does voting make people want to learn about public policy?
-### Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
-Some people argue that voting gives voters an incentive to learn more about policy.  Others argue that because the marginal effect of a single vote on an election's outcome is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis). But to asses these claims, we can't just look at whether voters know more about policy because the relationship might not be causal.  For example, maybe the same type of person who chooses to vote is also the type of person who wants to learn about policy.
+But is this model doing enough for disadvantaged districts?  The numbers say no.  The plots below show that educational outcomes remain worse for districts with more low-income and minority race students.
 
-Lopez de Leon and Rizzi's analysis take advantage of the fact that people in Brazil *can* vote before age 18 but *must* vote after age 18. Voting incentives learning about policy, we should see a spike in policy knowledge at age 18 that corresponds to a spike in voting.
-
-The plot below displays the results, as replicated by me.  It charts the variation in two variables (age and policy quiz scores) that is not explained by a variety of controls (retrieved through two OLS models of each outcome variable on the controls). It includes best fit lines found through local linear regressions, as well as a 95% confidence interval ribbon.
-
-While there is a statistically significant jump in voting at age 18, there is *not* a statistically significant jump in policy knowlegde, lending support to the rational ignorance hypothesis.
-<br/>
-<img src="/img/RDD_plot.png" width="700px" />
-
-As part of the same analysis, I performed multiple tests to show that voting not only increases at age 18, but increases by a statistically significant amount (while other relevant covariates don't change much). A bar chart with error bars is a simple way to show this.
-
-<img src="/img/balance_VOTE.png" width="700px" />
-<br/>
-
-# Does DACA incentivize immigrants to invest more in the U.S.?
-### Replication of [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) using difference-in-differences to look at how DACA affected on immigrants who arrived as children.
-The below use's Pope's data, but  displays the coefficients from my own modified OLS model looking at the interaction effect of DACA elgiibility and arriving after DACA became available (as opposed to before).
-The results suggest that DACA incentivized immigrants to enter the labor force and work more hours.
-<br/>
-<img src="/img/pope_table2.jpg" width="800px" />
-<br/> <br/> <br/>
-
-# Illustrating Inequities in North Carolina K-12 Education
-In spring 2022, I worked with a team of students to help a North Carolina philanthropy decide how it might use its resources to advance equity in K-12 education.  As part of my team's overview on the issues currently facing the state, I depicted the association between wealth, race, and educational outcomes in the plots below.
+#### The technical part
 The first plot below depicts the relationship between North Carolina school districts’ average SAT scores and median household incomes. The second plot puts the residuals from the first plot’s OLS model (regressing SAT score on income) on the y-axis. This illustrates the relationship between a district’s SAT score and racial makeup, isolated from the effect of income.
 <br/>
 <img src="/img/Income.png" width="600px" />
 <br/> <br/>
 <img src="/img/Race.png" width="600px" />
+<br/>
+So if the funding model isn't the issue, what is?  I'm a lot less certain about that, but the following points are at least part of the answer:
+1. **Overall funding for K-12 education remains far too low.** A good funding model can't make up for a lack of money going into it. North Carolina has yet to meet funding requirements [ordered by the state supreme court](https://www.youtube.com/watch?v=ye5nf6vz_9w&t=9s) over twenty years ago. The court-ordered [WestEd report](https://www.wested.org/resources/leandro-north-carolina/) can help the state figure out how to spend the money, if it ever provides it.
+2. **The state struggles to retain good teachers and to send them where they matter most.** A high-quality teachers can make a big difference in educational outcomes.  But at current funding levels, research points to virtually no effect of pay raises on teacher retention, especially schools where a majority of students are nonwhite.
+
+# Does voting make people want to learn about public policy?
+### Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
+Some people argue that voting gives voters an incentive to learn more about policy.  Others argue that because the marginal effect of a single vote on an election's outcome is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis). But to asses these claims, we can't just look at whether voters know more about policy because the relationship might not be causal.  For example, maybe the same type of person who chooses to vote is also the type of person who wants to learn about policy.
+
+Lopez de Leon and Rizzi test these two hypotheses by taking advantage of the fact that people in Brazil *can* vote before age 18 but *must* vote after age 18. Voting incentives learning about policy, we should see a spike in policy knowledge at age 18 that corresponds to a spike in voting.
+
+But first, we have to check that the share of people voting does in fact increases at age 18, and increases by a statistically significant amount. A bar chart with error bars is a simple way to show this.
+
+<br/>
+<img src="/img/balance_VOTE.png" width="700px" />
+<br/>
+
+Okay, so more Brazilians are voting more at age 18. Do they also become more knowledgable about policy?
+
+The plot below says no.  While there is a statistically significant jump in voting at age 18, there is *not* a statistically significant jump in policy knowledge.  So, these results support the rational ignorance hypothesis.
+
+#### The technical part
+The below plot shows the variation in two variables (age and policy quiz scores) that is not explained by a variety of controls (retrieved through two OLS models of each outcome variable on the controls). It includes best fit lines found through local linear regressions, as well as a 95% confidence interval ribbon.
+<br/>
+<img src="/img/RDD_plot.png" width="700px" />
+<br/>
+
+# Does DACA incentivize immigrants to invest more in the U.S.?
+### Replication of [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) using difference-in-differences to look at how DACA affected on immigrants who arrived as children.
+I'll write a non-technical explanation of this table one day, but today is not that day.  The table use's Pope's data, but  displays the coefficients from my own modified (but still based off Pope's) OLS model looking at the interaction effect of DACA elgiibility and arriving after DACA became available.
+The results suggest that DACA incentivized immigrants to enter the labor force and work more hours.
+<br/>
+<img src="/img/pope_table2.jpg" width="800px" />
 <br/> <br/> <br/>
 
 # Benefits of the Child Tax Credit, adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)
@@ -67,6 +73,6 @@ There are lots of reasons their result might fail to replicate for the North Car
 
 <br/>
 
-# Last but not least, I made this plot just for fun!
+# And I made this plot just for fun
 Corgi fans have put in the work, but Labs still reign supreme!
 <img src="/img/dogs.png" width="800px" />
