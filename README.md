@@ -1,4 +1,4 @@
-Data Visualization Examples
+Data Analysis and Visualization from My MPP
 ================
 Justin Giles
 
