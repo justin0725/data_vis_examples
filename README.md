@@ -7,44 +7,51 @@ Justin Giles
 <img src="/img/nc_funding.png" width="700px" />
 <br/>
 
-#### As part of my coursework, I replicated a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380). It found that voting *does not* increase a person’s policy knowledge (supporting the *rational ignornance hypothesis*). The plot below displays the results.  It charts the variation in two variables (age and policy quiz scores) that is not explained by a variety of controls (retrieved through two OLS models of each outcome variable on the controls). It includes best fit lines found through local linear regressions, as well as a 95% confidence interval ribbon.
+#### As part of my coursework, I replicated a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
+### Some people argue that voting gives voters an incentive to learn more about policy.  Other argue that because the marginal effect of a single vote on an election is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis). But to asses these claims, we can't just look at whether voters know more about policy because the relationship might not be causal (for example, maybe the same type of person who chooses to vote is also the type of person who wants to learn about policy).
+### Lopez de Leon and Rizzi's analysis take advantage of the fact that people in Brazil *can* vote before age 18 but *must* vote after age 18. Voting incentives learning about policy, we should see a spike in policy knowledge at age 18 that corresponds to a spike in voting.
+#### The plot below displays the results, as replicated by me.  It charts the variation in two variables (age and policy quiz scores) that is not explained by a variety of controls (retrieved through two OLS models of each outcome variable on the controls). It includes best fit lines found through local linear regressions, as well as a 95% confidence interval ribbon.
+#### While there is a statistically significant jump in voting at age 18, there is *not* a statistically significant jump in policy knowlegde, lending support to the rational ignorance hypothesis.
 <br/>
 <img src="/img/RDD_plot.png" width="900px" />
 <br/>
 
-#### As part of the same analysis, I needed to show that voting not only increases at age 18, but increases by a statistically significant amount. A bar chart with error bars is a simple way to show this.
+#### As part of the same analysis, I performed multiple tests to show that voting not only increases at age 18, but increases by a statistically significant amount (while other relevant covariates don't change much). A bar chart with error bars is a simple way to show this.
 <br/>
 <img src="/img/balance_VOTE.png" width="900px" />
 <br/>
 
-#### The below table replicates [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) looking for a causal effect of DACA on childhood arrivals of immigrants. It displays OLS model using formatting similar to academic journals.
+#### I replicated [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268), which used difference-in-differences to look at how DACA affected on immigrants who arrived as children.  The below  table displays the coefficients from an OLS model looking at the interaction effect of DACA elgiibility and arriving in the US shortly before versus after DACA became available.
+#### The results suggest that DACA incentivized immigrants to enter the labor force and work more hours.
 <br/>
 <img src="/img/pope_table2.jpg" width="900px" />
 <br/> <br/> <br/>
 
-#### I produced the below table for a report on the Child Tax Credit, making use of colors to increase the table’s readability and appeal.
+#### I produced the below table for a report on the Child Tax Credit, adapting it from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854) of the expanded child tax credit.  Garfinkel et al. found that giving money to parents would create social benefits far exceeding the policy's costs.  The largest benefit areas were increases to children's future earnings, improvements in health, and reductions in crime and its associated costs.
 <br/>
 <img src="/img/garf_national.png" width="1972" />
 <br/> <br/> <br/>
 
-#### The first plot below depicts an OLS model of the relationship between North Carolina school districts’ average SAT scores and median household incomes. The second plot puts the residuals from the first plot’s model on the y-axis in an attempt to capture the relationship between a district’s SAT score and racial makeup, isolated from the effect of income.
+#### As part of my coursework, I worked with a team of students to help a North Carolina philanthropy decide how it might use its resources to advance equity in K-12 education.  As part of my team's overview on the issues currently facing the state, I depicted the association between wealth, race, and educational outcomes in the plots below.
+#### The first plot below depicts the relationship between North Carolina school districts’ average SAT scores and median household incomes. The second plot puts the residuals from the first plot’s OLS model (regressing SAT score on income) on the y-axis. This illustrates the relationship between a district’s SAT score and racial makeup, isolated from the effect of income.
 <br/>
 <img src="/img/Income.png" width="600px" />
 <br/> <br/>
 <img src="/img/Race.png" width="600px" />
 <br/> <br/> <br/>
 
-#### For another class, I replicated the results of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) testing traffic stop data for evidence of racial discrimination. I used only the subset of their data from North Carolina. The below plot is from that analysis. The complicated nature of the analysis means that interpretting the plot takes some work - but I think it’s worth it! (Well, for their paper at least)
+#### I replicated the results of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) testing traffic stop data for evidence of racial discrimination, but with only the subset of their data from North Carolina. The below plot is from that analysis. The complicated nature of the analysis means that interpretting the plot takes some work - but I think it’s worth it! (Well, for their paper at least)
 
-#### The traffic stop data includes the time every traffic stop and the race of the driver. In the below plot, I look at just traffic stops that occurred between 7pm and 7:15pm (this helps control for stuff like what officers are on shift at the time, who is out and about on the roads, etc.). In this time, it may be light or dark depending on the time of year. I compare traffic stops made in this 15 minute chunk that were 60 to 30 minutes before dark, and 0 to 30 minutes after dark. The idea is that if percent of stopped drivers decreases when it is dark - and officers theoretically can no longer see the race of the person driving the car before they pull them over - that’s evidence of racial bias in traffic stops.
+#### The traffic stop data includes the time every traffic stop and the race of the driver. In the below plot, I look at just traffic stops that occurred between 7pm and 7:15pm.  This helps control for potentially confounding variables like what officers are on shift, who is out and about on the roads, etc. At this time, it may be light or dark depending on the time of year. I compare traffic stops made in this 15 minute chunk that were 60 to 30 minutes before dark, and 0 to 30 minutes after dark (the period from 30 to 0 minutes before dark is neither dark nor light, so traffic stops in that time get removed). The idea is that if percent of stopped drivers decreases when it is dark - when officers can no longer see the race of the person driving the car - that’s evidence of racial bias in traffic stops.
 
-#### The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
+#### The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals of those averages. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
 <br/>
 <img src="/img/pierson_plot1.png" width="900px" />
-<br/> <br/> <br/>
-#### Unlike Pierson et al., I did not find a statistically significant effect of the “veil of darkness” (assumed to hamper the ability of police to see the race of a person in a car) on the liklihood of a driver pulled over being black. This may be because the N.C. subset is not powerful enough to find the (small) effect they did.
+<br/>
+#### Unlike Pierson et al., I did not find a statistically significant effect of the “veil of darkness” on the liklihood of a driver pulled over being black.
+#### There are lots of reasons their result might fail to replicate for the North Carolina sample.  Most obviously, North Carolina could have less racial bias in its traffic stops than other places.  However, there are many counfounding factors. Pierson et al. did not specify all of their controls; I likely failed to account for some. Their analysis (which used data from many states) also found only a small effect; the North Carolina subset of data maybe not be powerful enough to detect an effect if one exists.  Finally, there may be other indicators of a driver's race (area they live in, etc.) that are not masked by nightfall, and are more prominant in North Carolina than other states.
 
 <br/>
 
-#### And then there’s this last one, just for fun.
+#### I made this plot just for fun! Frenchie fans have put in the work, but Labs still reign supreme!
 <img src="/img/dogs.png" width="900px" />
