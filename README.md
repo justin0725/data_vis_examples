@@ -20,7 +20,7 @@ Some people argue that voting gives voters an incentive to learn more about poli
 
 Lopez de Leon and Rizzi test these two hypotheses by taking advantage of the fact that people in Brazil *can* vote before age 18 but *must* vote after age 18. Voting incentives learning about policy, we should see a spike in policy knowledge at age 18 that corresponds to a spike in voting.
 
-But first, we have to check that the share of people voting does in fact increases at age 18, and increases by a statistically significant amount. A bar chart with error bars is a simple way to show this.
+But first, we have to check that the share of people voting does in fact increases at age 18, and increases by a statistically significant amount. The error bars on the chart below represent 95% confidence intervals.
 
 <br/>
 <img src="/img/balance_VOTE.png" width="700px" />
