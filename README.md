@@ -11,6 +11,7 @@ I spent many late nights coding during the first year of my MPP.  Here are some 
 4. [Does giving cash to low-income parents help them? What about everybody else?](#cba)
 5. [Does North Carolina traffic stop data contain evidence of racial discrimination?](#vod)
 6. [Just for fun, doggos](#dogs)
+<br/> <br/> <br/>
 
 <a name="rdd"></a>
 # 1. Does voting make people want to learn about public policy?
@@ -32,7 +33,7 @@ The plot below says no.  While there is a statistically significant jump in voti
 The below plot shows the variation in two variables (age and policy quiz scores) that is not explained by a variety of controls (retrieved through two OLS models of each outcome variable on the controls). It includes best fit lines found through local linear regressions, as well as a 95% confidence interval ribbon.
 <br/>
 <img src="/img/RDD_plot.png" width="700px" />
-<br/>
+<br/> <br/> <br/>
 
 <a name="schools"></a>
 # 2. Are North Carolina schools equitable?
@@ -53,6 +54,7 @@ The first plot below depicts the relationship between North Carolina school dist
 So if the funding model isn't the issue, what is?  I'm a lot less certain about that, but the following points are at least part of the answer:
 1. **Overall funding for K-12 education remains far too low.** A good funding model can't make up for a lack of money going into it. North Carolina has yet to meet funding requirements [ordered by the state supreme court](https://www.youtube.com/watch?v=ye5nf6vz_9w&t=9s) over twenty years ago. The court-ordered [WestEd report](https://www.wested.org/resources/leandro-north-carolina/) can help the state figure out how to spend the money, if it ever provides it.
 2. **The state struggles to retain good teachers and to send them where they matter most.** A high-quality teacher can make a [big difference](https://www.aeaweb.org/articles?id=10.1257/aer.104.9.2633) in educational outcomes.  But at current funding levels, research points to virtually no effect of pay raises on [teacher retention](https://direct.mit.edu/edfp/article/6/3/399/10143/Teacher-Mobility-School-Segregation-and-Pay-Based), especially [schools where a majority of students are nonwhite](https://www.edworkingpapers.com/ai21-455).
+<br/> <br/> <br/>
 
 <a name="did"></a>
 # 3. Does DACA incentivize immigrants to invest more in the U.S.?
