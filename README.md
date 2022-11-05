@@ -89,15 +89,17 @@ The traffic stop data includes the time every traffic stop and the race of the d
 
 The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals of those averages. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
 
+If this all seems hopelessly confusing, the most intuitive (if oversimplified) way to think about it is: yellow dots are daytime traffic stops, purple dots are nighttime traffic stops.  If the purple dots are on average (shown by the line) lower than the yellow dots, that means black drivers are less likely to be stopped when their race cannot be seen, which is evidence for racial bias.
+
 <img src="/img/pierson_plot1.png" width="700px" />
 <br/> 
 
-Unlike Pierson et al., I did not find a statistically significant effect of the “veil of darkness” on the liklihood of a driver pulled over being black.
+Unlike Pierson et al., I did not find a statistically significant effect of the “veil of darkness” on the liklihood of a driver pulled over being black (the error bands overlap).
 
 There are lots of reasons their result might fail to replicate for the North Carolina sample.  Most obviously, North Carolina could have less racial bias in its traffic stops than other states.  But there are many counfounding factors that I think offer more plausible explanations.  Pierson et al. did not specify all of their controls; I likely failed to account for some. Their analysis (which used data from many states) also found only a small effect; the North Carolina subset of data maybe not be powerful enough to detect an effect if one exists.  Finally, there may be other indicators of a driver's race (area they live in, etc.) that are not masked by nightfall, and are more prominant in North Carolina than other states.
 <br/> <br/> <br/>
 
 <a name="dogs"></a>
 # 6. We all love dogs right?
-Corgi fans have put in the work, but Labs still reign supreme!
+Corgis have put in the work, but Labs still reign supreme! My condolences to the yorkshire terriers.
 <img src="/img/dogs.png" width="800px" />
