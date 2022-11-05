@@ -5,9 +5,11 @@ Justin Giles
 I spent a lot of my first year as an MPP coding.  Here's some fruits of that labor!
 
 # Table of contents
-1. [Inequitable Education in North Carolina](#schools)
+I. [Does voting make people learn about policy?](#rdd)
+II. [Inequitable Education in North Carolina](#schools)
+III. [Does DACA make immigrants invest more in the U.S. labor market?](#did)
 
-# Despite a decent funding model, K-12 education in North Carolina remains inequitable <a name="schools"></a>
+<a name="schools"></a># Despite a decent funding model, K-12 education in North Carolina remains inequitable
 For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  As a result, a school in a poor area becomes far more likely to be underresourced.  Because the majority of North Carolina schools' funds come from the state, schools in poor districts may receive aid from elsewhere.
 
 But is this model doing enough for disadvantaged districts?  The numbers say no.  The plots below show that educational outcomes remain worse for districts with more low-income and minority race students.
