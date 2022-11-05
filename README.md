@@ -26,7 +26,7 @@ But first, we have to check that the share of people voting does in fact increas
 <img src="/img/balance_VOTE.png" width="700px" />
 <br/>
 
-Okay, so more Brazilians are voting more at age 18. Do they also become more knowledgable about policy?
+Okay, so more Brazilians are voting more at age 18. Do they also become more knowledgable about policy? 
 
 The plot below says no.  While there is a statistically significant jump in voting at age 18, there is *not* a statistically significant jump in policy knowledge.  So, these results support the rational ignorance hypothesis.
 
