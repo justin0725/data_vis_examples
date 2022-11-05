@@ -72,8 +72,8 @@ I produced the below table for a report on the expanded child tax credit (CTC). 
 
 The CTC is basically free money for parents of children.  This policy already gives many parents about $2000 per child every year.  However, some parents (about 1 in 3) don't make enough money to qualify for the full amount, and others (about 1 in 10) get nothing at all.  If we changed the policy so that everybody got the full amount, would it help low-income families?  And about everybody else - would it benefit U.S. taxpayers more than it would cost them?
 
-Yes on both accounts! Garfinkel et al. looked at a *lot* of studies at what happens when people suddenly get more cash and extrapolated the findings to predict what would happen if the low-income parents currently not receiving the full CTC were made eligible.  They found the policy change would create net eeconomic benefits far exceeding the policy's costs.  Most of those benefits came from:
-1. Increases to children's future earnings
+Yes on both accounts! Garfinkel et al. looked at a *lot* of studies on what happens when people get more cash and extrapolated the findings to predict what would happen if  low-income parents currently not receiving the full CTC were made eligible.  They found the policy change could create net economic benefits far exceeding the policy's costs.  Most of those benefits came from:
+1. Increases in children's future productivity and earnings,
 2. Decreases in burdens on the healthcare system, and
 3. Reductions in crime and its associated costs.
 <br/>
