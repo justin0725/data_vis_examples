@@ -29,7 +29,6 @@ Okay, so more Brazilians are voting more at age 18. Do they also become more kno
 
 The plot below says no.  While there is a statistically significant jump in voting at age 18, there is *not* a statistically significant jump in policy knowledge.  So, these results support the rational ignorance hypothesis.
 
-#### The technical part
 The below plot shows the variation in two variables (age and policy quiz scores) that is not explained by a variety of controls (retrieved through two OLS models of each outcome variable on the controls). It includes best fit lines found through local linear regressions, as well as a 95% confidence interval ribbon.
 <br/>
 <img src="/img/RDD_plot.png" width="700px" />
@@ -37,15 +36,14 @@ The below plot shows the variation in two variables (age and policy quiz scores)
 
 <a name="schools"></a>
 # 2. Are North Carolina schools equitable?
-For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  As a result, a school in a poor area becomes far more likely to be underresourced.  Because the majority of North Carolina schools' funds come from the state, schools in poor districts may receive aid from elsewhere.
+For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  In those states, schools in a poor areas frequently struggle to make ends meet.  Because the majority of North Carolina schools' funds come from the state, in theory, schools in poor districts may have less of an issue procuring funds.
 
 <br/>
 <img src="/img/nc_funding.png" width="500px" />
 <br/>
 
-But is this model doing enough for disadvantaged districts?  The numbers say no.  The plots below show that educational outcomes remain worse for districts with more low-income and minority race students.
+But is this model doing enough for North Carolina's disadvantaged school districts?  The numbers say no.  The plots below show that educational outcomes remain worse for districts with more low-income and minority race students.
 
-#### The technical part
 The first plot below depicts the relationship between North Carolina school districts’ average SAT scores and median household incomes. The second plot puts the residuals from the first plot’s OLS model (regressing SAT score on income) on the y-axis. This illustrates the relationship between a district’s SAT score and racial makeup, isolated from the effect of income.
 <br/>
 <img src="/img/Income.png" width="600px" />
