@@ -2,7 +2,7 @@ Data Analysis and Visualization from My MPP
 ================
 Justin Giles
 
-I spent a lot of my first year as an MPP coding.  Here's some fruits of that labor!
+I spent many late nights coding during the first year of my MPP.  Here are some of the fruits of that labor!
 
 # Table of contents
 1. [Does voting make people learn about policy?](#rdd)
