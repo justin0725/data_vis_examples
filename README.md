@@ -70,9 +70,12 @@ The results suggest that DACA incentivized immigrants to enter the labor force a
 ### Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)
 I produced the below table for a report on the expanded child tax credit (CTC).  The numbers are pulled straight from the paper, so this is more a demonstration that I can, in fact, code colorful tables than a demonstration of any real quantitative skills.  But I care a lot about poverty and welfare policy, so I couldn't not include it here!
 
-The CTC is basically free money for parents of children.  This policy already gives many parents about $2000 per child every year.  However, some parents (about 1 in 3) don't make enough money to qualify for the full amount, and others (about 1 in 10) get nothing at all.  If we changed the policy so that everybody got the amount, would it help low-income families?  And about everybody else - would it benefit U.S. taxpayers more than it would cost them?
+The CTC is basically free money for parents of children.  This policy already gives many parents about $2000 per child every year.  However, some parents (about 1 in 3) don't make enough money to qualify for the full amount, and others (about 1 in 10) get nothing at all.  If we changed the policy so that everybody got the full amount, would it help low-income families?  And about everybody else - would it benefit U.S. taxpayers more than it would cost them?
 
-Yes on both accounts! Garfinkel et al. found that giving money to parents would create net benefits far exceeding the policy's costs.  The largest benefit areas were increases to children's future earnings, decreases in burdens on the healthcare system, and reductions in crime and its associated costs.
+Yes on both accounts! Garfinkel et al. looked at a *lot* of studies at what happens when people suddenly get more cash and extrapolated the findings to predict what would happen if the low-income parents currently not receiving the full CTC were made eligible.  They found the policy change would create net eeconomic benefits far exceeding the policy's costs.  Most of those benefits came from:
+1. Increases to children's future earnings
+2. Decreases in burdens on the healthcare system, and
+3. Reductions in crime and its associated costs.
 <br/>
 <img src="/img/garf_national.png" width="1972" />
 <br/> <br/> <br/>
