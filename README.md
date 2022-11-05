@@ -64,7 +64,7 @@ The results suggest that DACA incentivized immigrants to enter the labor force a
 <br/> <br/> <br/>
 
 <a name="cba"></a>
-# Does giving cash to low-income parents help them?  What about everybody else?
+# 4. Does giving cash to low-income parents help them?  What about everybody else?
 ### Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)
 I produced the below table for a report on the expanded child tax credit (CTC).  The numbers are pulled straight from the paper, so this is more a demonstration that I can, in fact, code colorful tables than a demonstration of any real quantitative skills.  But I care a lot about poverty and welfare policy, so I couldn't not include it here!
 
@@ -76,7 +76,7 @@ Yes on both accounts! Garfinkel et al. found that giving money to parents would 
 <br/> <br/> <br/>
 
 <a name="vod"></a>
-# Does North Carolina traffic stop data contain evidence of racial discrimination?
+# 5. Does North Carolina traffic stop data contain evidence of racial discrimination?
 ### Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test
 I used Pierson et al.'s data for my analysis, but limited it to a subset from North Carolina.  The complicated nature of the analysis means that interpretting the plot takes some work - but I think it’s worth it! (Well, for *their* paper at least - you can decide if it's worth it for mine)
 
@@ -93,6 +93,6 @@ There are lots of reasons their result might fail to replicate for the North Car
 <br/> <br/> <br/>
 
 <a name="dogs"></a>
-# And I made this plot just for fun
+# 6. We all love dogs right?
 Corgi fans have put in the work, but Labs still reign supreme!
 <img src="/img/dogs.png" width="800px" />
