@@ -39,6 +39,10 @@ The below plot shows the variation in two variables (age and policy quiz scores)
 # 2. Are North Carolina schools equitable?
 For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  As a result, a school in a poor area becomes far more likely to be underresourced.  Because the majority of North Carolina schools' funds come from the state, schools in poor districts may receive aid from elsewhere.
 
+<br/>
+<img src="/img/nc_funding.png" width="700px" />
+<br/>
+
 But is this model doing enough for disadvantaged districts?  The numbers say no.  The plots below show that educational outcomes remain worse for districts with more low-income and minority race students.
 
 #### The technical part
