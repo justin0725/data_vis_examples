@@ -40,6 +40,7 @@ The plot shows the variation in two variables (age and policy quiz scores) that 
 
 <a name="schools"></a>
 # 2. Are North Carolina schools equitable?
+## No. Student outcomes in North Carolina remain highly correlated with income and race.
 For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  In those states, schools in a poor areas frequently struggle to make ends meet.  Because the majority of North Carolina schools' funds come from the state, in theory, schools in poor districts may have less of an issue procuring funds.
 
 <br/>
@@ -61,7 +62,8 @@ So if the funding model isn't the issue, what is?  I'm a lot less certain I can 
 
 <a name="did"></a>
 # 3. Does DACA incentivize immigrants to invest more in the U.S.?
-### Replication of [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) using difference-in-differences to look at how DACA affected on immigrants who arrived as children.
+## Yes. Immigrants eligible for DACA (based on date of arrival) are more likely to look for work, and work for more hours, than immigrants ineligible for DACA.
+##### Replication of [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) using difference-in-differences to look at how DACA affected on immigrants who arrived as children.
 I'll write a non-technical explanation of this table one day, but today is not that day.  The table uses Pope's data, but  displays the coefficients from my own modified (but still based off Pope's) OLS model looking at the interaction effect of DACA elgiibility and arriving after DACA became available.
 The results suggest that DACA incentivized immigrants to enter the labor force and work more hours.
 <br/>
@@ -70,7 +72,8 @@ The results suggest that DACA incentivized immigrants to enter the labor force a
 
 <a name="cba"></a>
 # 4. Does giving cash to low-income parents help them?  What about everybody else?
-### Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)
+## Yes and yes. Giving money to parents improves earnings and health while reducing crime.
+##### Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)
 I produced the below table for a report on the expanded child tax credit (CTC).  The numbers are pulled straight from the paper, so this didn't take any fancy quantitative skills.  But I care a lot about poverty and welfare policy, so I couldn't resist including it here!
 
 The CTC is basically free money for parents of children.  The policy already gives most parents about $2000 per child every year.  However, some parents (about 1 in 3) don't make enough money to qualify for the full amount, and others (about 1 in 10) get nothing at all.  If we changed the policy so everybody got the full amount, would it help low-income families?  And what about everybody else - would it benefit U.S. taxpayers more than it would cost them?
@@ -85,7 +88,8 @@ Yes on both accounts! Garfinkel et al. looked at a *lot* of studies on what happ
 
 <a name="vod"></a>
 # 5. Does North Carolina traffic stop data contain evidence of racial discrimination?
-### Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test
+## The data here do not display a significant effect, but confounding variables remain.
+##### Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test
 I used Pierson et al.'s data for my analysis, but limited it to a subset from North Carolina.  The complicated nature of the analysis means that interpreting the plot takes some work, but I think it’s worth it! (Well, for *their* paper at least - you can decide if it's worth it for mine)
 
 In the below plot, I look at only traffic stops that occurred between 7pm and 7:15pm.  This helps control for potentially confounding variables like what officers are on shift, what drivers are out and about on the roads, etc. At 7pm, it may be light or dark depending on the time of year. I compare traffic stops that took place 60 to 30 minutes before dark, and 0 to 30 minutes after dark (the period from 30 to 0 minutes before dark is neither dark nor light, so traffic stops in that time get removed). 
