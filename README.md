@@ -88,7 +88,7 @@ Yes on both accounts! Garfinkel et al. looked at a *lot* of studies on what happ
 
 <a name="vod"></a>
 # 5. Do North Carolina traffic stop data contain evidence of racial discrimination?
-## Not in the analysis below, but confounding variables remain.
+## According to the analysis below, no, but confounding variables remain.
 ##### Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test
 I used Pierson et al.'s data for my analysis, but limited it to a subset from North Carolina.  The complicated nature of the analysis means that interpreting the plot takes some work, but I think it’s worth it! (Well, for *their* paper at least - you can decide if it's worth it for mine)
 
