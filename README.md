@@ -72,7 +72,7 @@ The results suggest that DACA incentivized immigrants to enter the labor force a
 
 <a name="cba"></a>
 # 4. Does giving cash to low-income parents help them?  What about everybody else?
-## Yes and yes. Giving money to parents improves earnings and health while reducing crime.
+## It helps both them and everybody else! Giving money to parents improves earnings and health while reducing crime.
 ##### Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)
 I produced the below table for a report on the expanded child tax credit (CTC).  The numbers are pulled straight from the paper, so this didn't take any fancy quantitative skills.  But I care a lot about poverty and welfare policy, so I couldn't resist including it here!
 
