@@ -1,4 +1,4 @@
-A sample of my MPP data analysis and visualization work
+A sample of my data analysis and visualization work
 ================
 Justin Giles
 
