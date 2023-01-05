@@ -23,7 +23,7 @@ To asses these claims, we can't just look at whether voters know more about poli
 
 Lopez de Leon and Rizzi get around this problem by taking advantage of the fact that people in Brazil are *allowed* to vote before age 18 but *must* vote after age 18. If voting makes people want to learn about policy, we should see a spike in policy knowledge at age 18 that corresponds with a spike in voting.
 
-But first, we have to check that the share of people voting does in fact increases at age 18, and increases by a statistically significant amount. The error bars on the chart below represent 95% confidence intervals.
+But first, we have to check that the share of people voting does in fact increase at age 18.  The chart shows this.  The error bars represent 95% confidence intervals.
 
 <br/>
 <img src="/img/balance_VOTE.png" width="700px" />
