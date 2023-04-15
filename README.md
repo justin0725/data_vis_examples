@@ -14,8 +14,8 @@ I spent many late nights coding during the first year of my MPP.  Here are some 
 <br/> <br/> <br/>
 
 <a name="rdd"></a>
-# 1. Does voting make people want to learn about public policy?
-## No. In Brazil, mandatory voting prompts more people to vote, but not to learn about policy.
+# 1. Does mandatory voting make people learn about public policy?
+## No. In Brazil, mandatory voting prompts more people to vote, but policy knowledge is unaffected.
 ##### Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
 Some people argue that voting gives voters an incentive to learn more about policy.  Others argue that because the marginal effect of a single vote on an election's outcome is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis).
 
@@ -98,7 +98,7 @@ The idea here is that if percent of stopped drivers decreases when it is dark - 
 
 The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals of those averages. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
 
-If all that seems hopelessly confusing, this is the part to focus on: yellow dots are daytime averages of percent of drivers stopped who are black, while purple dots are nightttime averages of percent of drivers stopped who are black.  If the purple dots tend to be lower than the yellow dots, that means black drivers are less likely to be stopped when their race cannot be seen, which is evidence for racial bias.
+If all that seems hopelessly confusing, this is the part to focus on: yellow dots are daytime averages of percent of drivers stopped who are black, while purple dots are nighttime averages of percent of drivers stopped who are black.  If the purple dots tend to be lower than the yellow dots, that means black drivers are less likely to be stopped when their race cannot be seen, which is evidence for racial bias.
 
 <img src="/img/pierson_plot1.png" width="700px" />
 <br/> 
