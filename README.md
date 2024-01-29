@@ -64,7 +64,7 @@ So if the funding model isn't the issue, what is?  I'm a lot less certain I can 
 # 3. Does DACA incentivize immigrants to invest more in the U.S.?
 ## Yes. Immigrants eligible for DACA (based on date of arrival) are more likely to look for work, and work for more hours, than immigrants ineligible for DACA.
 ##### Replication of [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) using difference-in-differences to look at how DACA affected on immigrants who arrived as children.
-I'll write a non-technical explanation of this table one day, but today is not that day.  The table uses Pope's data, but  displays the coefficients from my own modified (but still based off Pope's) OLS model looking at the interaction effect of DACA elgiibility and arriving after DACA became available.
+I'll write a non-technical explanation of this table one day, but today is not that day.  The table uses Pope's data, but  displays the coefficients from my own OLS model looking at the interaction effect of DACA elgiibility and arriving after DACA became available (though it remains heavily based off Pope's model).
 The results suggest that DACA incentivized immigrants to enter the labor force and work more hours.
 <br/>
 <img src="/img/pope_table2.jpg" width="800px" />
