@@ -92,9 +92,9 @@ Yes on both accounts! Garfinkel et al. looked at a *lot* of studies on what happ
 ##### Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test
 I used Pierson et al.'s data for my analysis, but limited it to a subset from North Carolina.  The complicated nature of the analysis means that interpreting the plot takes some work, but I think it’s worth it! (Well, for *their* paper at least - you can decide if it's worth it for mine)
 
-In the below plot, I look at only traffic stops that occurred between 7pm and 7:15pm.  This helps control for potentially confounding variables like what officers are on shift, what drivers are out and about on the roads, etc. At 7pm, it may be light or dark depending on the time of year. I compare traffic stops that took place 60 to 30 minutes before dark, and 0 to 30 minutes after dark (the period from 30 to 0 minutes before dark is neither dark nor light, so traffic stops in that time get removed). 
+In the below plot, I look at only traffic stops that occurred between 7pm and 7:15pm.  This helps control for potentially confounding variables like which officers are on shift, which drivers are out and about on the roads, etc. At 7pm, it may be light or dark depending on the time of year. I compare traffic stops that took place 60 to 30 minutes before dark, and 0 to 30 minutes after dark (the period from 30 to 0 minutes before dark is neither dark nor light, so traffic stops in that time get removed). 
 
-The idea here is that if percent of stopped drivers decreases when it is dark - when officers can no longer see the race of the person driving the car - that’s evidence of racial bias in traffic stops.
+The idea here is that if the percent of stopped drivers who are black decreases when it is dark - when officers can no longer see the race of the person driving the car - that’s evidence of racial bias in traffic stops.
 
 The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals of those averages. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
 
