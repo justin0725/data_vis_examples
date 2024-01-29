@@ -98,12 +98,12 @@ The idea here is that if the percent of stopped drivers who are black decreases 
 
 The lines on the plot indicate the average percent of drivers pulled over who were black before and after dark, and the shaded bands represent 95% confidence intervals of those averages. Each dot indicates the percent of drivers pulled over in the one-minute interval depicted on the x-axis, with the larger dots signifying more traffic stops in that interval.
 
-If all that seems hopelessly confusing, this is the part to focus on: yellow dots are daytime averages of percent of drivers stopped who are black, while purple dots are nighttime averages of percent of drivers stopped who are black.  If the purple dots tend to be lower than the yellow dots, that means black drivers are less likely to be stopped when their race cannot be seen, which is evidence for racial bias.
+If all that seems hopelessly confusing, this is the part to focus on: if the purple dots tend to be lower than the yellow dots, that means black drivers are less likely to be stopped when their race cannot be seen, which is evidence for racial bias.
 
 <img src="/img/pierson_plot1.png" width="700px" />
 <br/> 
 
-Unlike Pierson et al., I did not find a statistically significant effect of the “veil of darkness” on the liklihood of a driver pulled over being black (the error bands overlap).  My full analysis contained plots for more times as well as logistic regression results, none of which were significant.
+Unlike Pierson et al., I did not find a statistically significant effect of the “veil of darkness” on the liklihood of a driver pulled over being black; for example, in the above plot, the error bands overlap.  My full analysis contained plots for more times as well as logistic regression results, none of which were significant.
 
 There are lots of reasons Pierson et al.'s results might fail to replicate for the North Carolina sample.  Most obviously, North Carolina could have less racial bias in its traffic stops than other states.  But there are many counfounding factors that I think offer more plausible explanations.  Pierson et al. did not specify all of their controls; I likely failed to account for some. Their analysis (which used data from many states) also found only a small effect, so the North Carolina subset might not be powerful enough to detect an effect even if one exists.  Finally, there may be other indicators of a driver's race (area they live in, etc.) that are not masked by nightfall, and are more prominant in North Carolina than other states.
 <br/> <br/> <br/>
