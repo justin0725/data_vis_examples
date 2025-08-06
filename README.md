@@ -20,13 +20,13 @@ I spent many late nights coding during the first year of my MPP.  Here are some 
 # 1. Does the theory of harmless error a court uses matter?
 ## Yes. Florida, which uses a different theory of harmless error than other states, mandatory voting prompts more people to vote, but policy knowledge is unaffected.
 ##### This is just one small part of a larger analysis I hope to publish this spring.
-Sometimes, criminal trials involve legal errors.  Maybe the prosecutor made a comment to the jury about how the defendant's refusal to speak during the trial was evidence of a guilty conscience—that's not allowed!  Or, maybe the judge allowed a witness to testify that her brother told her that her aunt saw someone that looked like the defendant rob the store—that's not allowed either!
+Sometimes, criminal trials involve legal errors.  Maybe the prosecutor made a comment to the jury about how the defendant's refusal to speak during the trial was evidence of a guilty conscience.  That's not allowed!  Or, maybe the judge allowed a witness to testify that her brother said that her aunt said their cousin said they saw someone who looked like the defendant rob a store.  That's not allowed either!
 
 But just because a legal error occured does not mean the defendant gets to walk free.  When the defendant appeals their guilty verdict, the appellate court will ask whether the error was "harmless."  If so, the guilty verdict stands.  If not, the defendant gets a new trial.
 
 But what does it mean for an error to be harmless?  Two basic theories exist.  I'm not going to get into those theories here (you'll have to read my paper for that), but in a nutshell, the difference between the theories is subtle—so subtle that some scholars doubt there is any difference.  They think that what theory a court uses doesn't actually affect the decision the court makes.
 
-I tested this by comparing the amount of times a legal error resulted in a new trial in Florida (which started using the second theory in 1986) versus other states that use the first theory.  And I found that after Florida started using the second theory, it's remand rates separated from those of the other states by a lot.
+I tested this by comparing the amount of times a legal error resulted in a new trial in Florida (which started using one of the theories in 1986) versus other states that use a different theory.  And I found that after Florida started using the second theory, it's remand rates separated from the other states by a lot.
 
 <br/>
 <img src="/img/mp_fig2.png" width="700px" />
@@ -34,7 +34,7 @@ I tested this by comparing the amount of times a legal error resulted in a new t
 
 But there's a complication: We don't see this effect materialize until post-2005.  That's two decades after Florida made the switch!  So is difference between Florida and the other states really driven by Florida's different law?
 
-To try to get a better handle on what was going on here, I looked which theory Florida courts were applying when they made harmless error decisions.  Surprisingly, I found that even though they were *supposed* to start applying the second theory in 1986, the number of courts actually using it didn't increase until post-2005—exactly the same time when we see the remand rate spike!
+To try to get a better handle on what was going on here, I looked at which theory Florida courts were applying when they made harmless error decisions.  Surprisingly, I found that even though they were *supposed* to start applying a particular theory in 1986, the number of courts actually using it didn't increase until post-2005—exactly the same time when we see the remand rate spike!
 
 <br/>
 <img src="/img/mp_fig1.png" width="700px" />
