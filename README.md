@@ -24,15 +24,9 @@ Sometimes, criminal trials involve legal errors.  Maybe the prosecutor made a co
 
 But just because a legal error occured does not mean the defendant gets to walk free.  When the defendant appeals their guilty verdict, the appellate court will ask whether the error was "harmless."  If so, the guilty verdict stands.  If not, the defendant gets a new trial.
 
-But what does it mean for an error to be harmless?  Two basic theories exist.  The first involves a judge asking whether overwhelming evidence showed that the defendant was guilty.  If so, the judge will assume that the error was harmless because even without the error, the jury would have found the defendant guilty.
+But what does it mean for an error to be harmless?  Two basic theories exist.  I'm not going to get into those theories here (you'll have to read my paper for that), but in a nutshell, the difference between the theories is subtle—so subtle that some scholars doubt there is any difference.  They think that what theory a court uses doesn't actually affect the decision the court makes.
 
-The second popular theory asks whether the error "contributed" to the jury's verdict.  Generally, this means that the judge will ask whether the error seems like something that the jurors would think a lot about when deciding whether the defendant was guilty.  If so, the error would be considered harmful.
-
-The difference between the two theories is subtle—so subtle that some legal scholars don't even think it's a real difference.  They argue that courts will reahc the same results regardless of which theory they apply.
-
-I thought they were probably right, so I set out to test their hypothesis.  And it turns out that they're probably *not* right—what theory a court uses makes a difference!
-
-I tested this by comparing the amount of times a legal error resulted in a new trial in Florida (which started using the second theory in 1986) versus other states that use the first theory.  And I found that after Florida started using the second theory, it's remand rates separated from those of the other states by a lot!
+I tested this by comparing the amount of times a legal error resulted in a new trial in Florida (which started using the second theory in 1986) versus other states that use the first theory.  And I found that after Florida started using the second theory, it's remand rates separated from those of the other states by a lot.
 
 <br/>
 <img src="/img/mp_fig2.png" width="700px" />
