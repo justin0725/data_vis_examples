@@ -18,7 +18,7 @@ I spent many late nights coding during the first year of my MPP.  Here are some 
 <a name="HE"></a>
 # 1. Does the theory of harmless error a court uses matter?
 ## Yes. Florida, which uses a different theory of harmless error than other states, mandatory voting prompts more people to vote, but policy knowledge is unaffected.
-##### *This is just one small part of a larger analysis I hope to publish this spring.*
+##### *This is just one small part of a larger analysis I hope to publish this coming spring.*
 Sometimes, criminal trials involve legal errors.  Maybe the prosecutor made a comment to the jury about how the defendant's refusal to speak during the trial was evidence of a guilty conscience.  That's not allowed!  Or, maybe the judge allowed a witness to testify that her brother said that her aunt said their cousin said they saw someone who looked like the defendant rob a store.  That's not allowed either!
 
 But just because a legal error occured does not mean the defendant gets to walk free.  When the defendant appeals their guilty verdict, the appellate court will ask whether the error was "harmless."  If so, the guilty verdict stands.  If not, the defendant gets a new trial.
