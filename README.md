@@ -7,16 +7,49 @@ I spent many late nights coding during the first year of my MPP.  Here are some 
 *I've tried to include something for everyone here.  There are complicated regression output tables that you probably need some academic background to understand, but there are also lines on graphs that go up (or down, as the case may be).  Enjoy!*
 
 # Table of contents
-1. [Does voting make people learn about policy?](#rdd)
-2. [Are North Carolina schools equitable?](#schools)
-3. [Does DACA make immigrants invest more in the U.S. labor market?](#did)
-4. [Does giving cash to low-income parents help them? What about everybody else?](#cba)
-5. [Does North Carolina traffic stop data contain evidence of racial discrimination?](#vod)
-6. [Just for fun, doggos](#dogs)
+1. [Does the theory of harmless error a court uses matter?](#HE)
+2. [Does voting make people learn about policy?](#rdd)
+3. [Are North Carolina schools equitable?](#schools)
+4. [Does DACA make immigrants invest more in the U.S. labor market?](#did)
+5. [Does giving cash to low-income parents help them? What about everybody else?](#cba)
+6. [Does North Carolina traffic stop data contain evidence of racial discrimination?](#vod)
+7. [Just for fun, doggos](#dogs)
 <br/> <br/> <br/>
 
+<a name="HE"></a>
+# 1. Does the theory of harmless error a court uses matter?
+## Yes. Florida, which uses a different theory of harmless error than other states, mandatory voting prompts more people to vote, but policy knowledge is unaffected.
+##### This is just one small part of a larger analysis I hope to publish this spring.
+Sometimes, criminal trials involve legal errors.  Maybe the prosecutor made a comment to the jury about how the defendant's refusal to speak during the trial was evidence of a guilty conscience—that's not allowed!  Or, maybe the judge allowed a witness to testify that her brother told her that her aunt saw someone that looked like the defendant rob the store—that's not allowed either!
+
+But just because a legal error occured does not mean the defendant gets to walk free.  When the defendant appeals their guilty verdict, the appellate court will ask whether the error was "harmless."  If so, the guilty verdict stands.  If not, the defendant gets a new trial.
+
+But what does it mean for an error to be harmless?  Two basic theories exist.  The first involves a judge asking whether overwhelming evidence showed that the defendant was guilty.  If so, the judge will assume that the error was harmless because even without the error, the jury would have found the defendant guilty.
+
+The second popular theory asks whether the error "contributed" to the jury's verdict.  Generally, this means that the judge will ask whether the error seems like something that the jurors would think a lot about when deciding whether the defendant was guilty.  If so, the error would be considered harmful.
+
+The difference between the two theories is subtle—so subtle that some legal scholars don't even think it's a real difference.  They argue that courts will reahc the same results regardless of which theory they apply.
+
+I thought they were probably right, so I set out to test their hypothesis.  And it turns out that they're probably *not* right—what theory a court uses makes a difference!
+
+I tested this by comparing the amount of times a legal error resulted in a new trial in Florida (which started using the second theory in 1986) versus other states that use the first theory.  And I found that after Florida started using the second theory, it's remand rates separated from those of the other states by a lot!
+
+<br/>
+<img src="/img/mp_fig2.png" width="700px" />
+<br/>
+
+But there's a complication: We don't see this effect materialize until post-2005.  That's two decades after Florida made the switch!  So is difference between Florida and the other states really driven by Florida's different law?
+
+To try to get a better handle on what was going on here, I looked which theory Florida courts were applying when they made harmless error decisions.  Surprisingly, I found that even though they were *supposed* to start applying the second theory in 1986, the number of courts actually using it didn't increase until post-2005—exactly the same time when we see the remand rate spike!
+
+<br/>
+<img src="/img/mp_fig1.png" width="700px" />
+<br/>
+
+My interpretation of this is that different theory caused the different remand rate.  But it's definitely funky.  My paper contains more rigorous statistical testing, and I am currently in the process of adding data from additional states to bolster the analysis.  Stay tuned!
+
 <a name="rdd"></a>
-# 1. Does mandatory voting make people learn about public policy?
+# 2. Does mandatory voting make people learn about public policy?
 ## No. In Brazil, mandatory voting prompts more people to vote, but policy knowledge is unaffected.
 ##### Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
 Some people argue that voting gives voters an incentive to learn more about policy.  Others argue that because the marginal effect of a single vote on an election's outcome is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis).
@@ -41,7 +74,7 @@ The plot shows the variation in two variables (age and policy quiz scores) that 
 <br/> <br/> <br/>
 
 <a name="schools"></a>
-# 2. Are North Carolina schools equitable?
+# 3. Are North Carolina schools equitable?
 ## No. Student outcomes in North Carolina remain highly correlated with income and race.
 For all North Carolina's issues with K-12 education funding, the overall model isn't one of them.  Many other states fund schools through local property taxes.  In those states, schools in a poor areas frequently struggle to make ends meet.  Because the majority of North Carolina schools' funds come from the state, in theory, schools in poor districts may have less of an issue procuring funds.
 
@@ -63,7 +96,7 @@ So if the funding model isn't the issue, what is?  I'm a lot less certain I can 
 <br/> <br/> <br/>
 
 <a name="did"></a>
-# 3. Does DACA incentivize immigrants to invest more in the U.S.?
+# 4. Does DACA incentivize immigrants to invest more in the U.S.?
 ## Yes. Immigrants eligible for DACA (based on date of arrival) are more likely to look for work, and work for more hours, than immigrants ineligible for DACA.
 ##### Replication of [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) using difference-in-differences to look at how DACA affected on immigrants who arrived as children.
 I'll write a non-technical explanation of this table one day, but today is not that day.  The table uses Pope's data, but  displays the coefficients from my own OLS model looking at the interaction effect of DACA elgiibility and arriving after DACA became available (though it remains heavily based off Pope's model).
@@ -73,7 +106,7 @@ The results suggest that DACA incentivized immigrants to enter the labor force a
 <br/> <br/> <br/>
 
 <a name="cba"></a>
-# 4. Does giving cash to low-income parents help them?  What about everybody else?
+# 5. Does giving cash to low-income parents help them?  What about everybody else?
 ## It helps both them and everybody else! Giving money to parents improves earnings and health while reducing crime.
 ##### Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)
 I produced the below table for a report on the expanded child tax credit (CTC).  The numbers are pulled straight from the paper, so this didn't take any fancy quantitative skills.  But I care a lot about poverty and welfare policy, so I couldn't resist including it here!
@@ -89,7 +122,7 @@ Yes on both accounts! Garfinkel et al. looked at a *lot* of studies on what happ
 <br/> <br/> <br/>
 
 <a name="vod"></a>
-# 5. Do North Carolina traffic stop data contain evidence of racial discrimination?
+# 6. Do North Carolina traffic stop data contain evidence of racial discrimination?
 ## According to the analysis below, no, but confounding variables remain.
 ##### Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test
 I used Pierson et al.'s data for my analysis, but limited it to a subset from North Carolina.  The complicated nature of the analysis means that interpreting the plot takes some work, but I think it’s worth it! (Well, for *their* paper at least - you can decide if it's worth it for mine)
@@ -111,6 +144,6 @@ There are lots of reasons Pierson et al.'s results might fail to replicate for t
 <br/> <br/> <br/>
 
 <a name="dogs"></a>
-# 6. We all love dogs right?
+# 7. We all love dogs right?
 Corgis have put in the work, but Labs still reign supreme! My condolences to the yorkshire terriers.
 <img src="/img/dogs.png" width="800px" />
