@@ -19,7 +19,7 @@ I spent many late nights coding during the first year of my MPP.  Here are some 
 <a name="HE"></a>
 # 1. Does the theory of harmless error a court uses matter?
 ## Yes. Florida, which uses a different theory of harmless error than other states, mandatory voting prompts more people to vote, but policy knowledge is unaffected.
-##### This is just one small part of a larger analysis I hope to publish this spring.
+##### *This is just one small part of a larger analysis I hope to publish this spring.*
 Sometimes, criminal trials involve legal errors.  Maybe the prosecutor made a comment to the jury about how the defendant's refusal to speak during the trial was evidence of a guilty conscience.  That's not allowed!  Or, maybe the judge allowed a witness to testify that her brother said that her aunt said their cousin said they saw someone who looked like the defendant rob a store.  That's not allowed either!
 
 But just because a legal error occured does not mean the defendant gets to walk free.  When the defendant appeals their guilty verdict, the appellate court will ask whether the error was "harmless."  If so, the guilty verdict stands.  If not, the defendant gets a new trial.
@@ -45,7 +45,7 @@ My interpretation of this is that different theory caused the different remand r
 <a name="rdd"></a>
 # 2. Does mandatory voting make people learn about public policy?
 ## No. In Brazil, mandatory voting prompts more people to vote, but policy knowledge is unaffected.
-##### Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).
+##### *Replication of a regression discontinuity analysis from [a 2014 paper by Lopez de Leon and Rizzi](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.380).*
 Some people argue that voting gives voters an incentive to learn more about policy.  Others argue that because the marginal effect of a single vote on an election's outcome is negligible, ability to vote does is not a compelling reason to learn more about policy (the "rational ignorance" hypothesis).
 
 To asses these claims, we can't just look at whether voters know more about policy than non-voters because the relationship might not be causal.  For example, maybe the type of people vote are also the type of people who want to learn about policy.
@@ -92,7 +92,7 @@ So if the funding model isn't the issue, what is?  I'm a lot less certain I can 
 <a name="did"></a>
 # 4. Does DACA incentivize immigrants to invest more in the U.S.?
 ## Yes. Immigrants eligible for DACA (based on date of arrival) are more likely to look for work, and work for more hours, than immigrants ineligible for DACA.
-##### Replication of [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) using difference-in-differences to look at how DACA affected on immigrants who arrived as children.
+##### *Replication of [Nolan Pope’s 2016 paper](https://www.sciencedirect.com/science/article/pii/S0047272716301268) using difference-in-differences to look at how DACA affected on immigrants who arrived as children.*
 I'll write a non-technical explanation of this table one day, but today is not that day.  The table uses Pope's data, but  displays the coefficients from my own OLS model looking at the interaction effect of DACA elgiibility and arriving after DACA became available (though it remains heavily based off Pope's model).
 The results suggest that DACA incentivized immigrants to enter the labor force and work more hours.
 <br/>
@@ -102,7 +102,7 @@ The results suggest that DACA incentivized immigrants to enter the labor force a
 <a name="cba"></a>
 # 5. Does giving cash to low-income parents help them?  What about everybody else?
 ## It helps both them and everybody else! Giving money to parents improves earnings and health while reducing crime.
-##### Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)
+##### *Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)*
 I produced the below table for a report on the expanded child tax credit (CTC).  The numbers are pulled straight from the paper, so this didn't take any fancy quantitative skills.  But I care a lot about poverty and welfare policy, so I couldn't resist including it here!
 
 The CTC is basically free money for parents of children.  The policy already gives most parents about $2000 per child every year.  However, some parents (about 1 in 3) don't make enough money to qualify for the full amount, and others (about 1 in 10) get nothing at all.  If we changed the policy so everybody got the full amount, would it help low-income families?  And what about everybody else - would it benefit U.S. taxpayers more than it would cost them?
@@ -118,7 +118,7 @@ Yes on both accounts! Garfinkel et al. looked at a *lot* of studies on what happ
 <a name="vod"></a>
 # 6. Do North Carolina traffic stop data contain evidence of racial discrimination?
 ## According to the analysis below, no, but confounding variables remain.
-##### Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test
+##### *Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test*
 I used Pierson et al.'s data for my analysis, but limited it to a subset from North Carolina.  The complicated nature of the analysis means that interpreting the plot takes some work, but I think it’s worth it! (Well, for *their* paper at least - you can decide if it's worth it for mine)
 
 In the below plot, I look at only traffic stops that occurred between 7pm and 7:15pm.  This helps control for potentially confounding variables like which officers are on shift, which drivers are out and about on the roads, etc. At 7pm, it may be light or dark depending on the time of year. I compare traffic stops that took place 60 to 30 minutes before dark, and 0 to 30 minutes after dark (the period from 30 to 0 minutes before dark is neither dark nor light, so traffic stops in that time get removed). 
