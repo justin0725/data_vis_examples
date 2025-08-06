@@ -11,9 +11,8 @@ I spent many late nights coding during the first year of my MPP.  Here are some 
 2. [Does voting make people learn about policy?](#rdd)
 3. [Are North Carolina schools equitable?](#schools)
 4. [Does DACA make immigrants invest more in the U.S. labor market?](#did)
-5. [Does giving cash to low-income parents help them? What about everybody else?](#cba)
-6. [Does North Carolina traffic stop data contain evidence of racial discrimination?](#vod)
-7. [Just for fun, doggos](#dogs)
+5. [Does North Carolina traffic stop data contain evidence of racial discrimination?](#vod)
+6. [Just for fun, doggos](#dogs)
 <br/> <br/> <br/>
 
 <a name="HE"></a>
@@ -99,24 +98,8 @@ The results suggest that DACA incentivized immigrants to enter the labor force a
 <img src="/img/pope_table2.jpg" width="800px" />
 <br/> <br/> <br/>
 
-<a name="cba"></a>
-# 5. Does giving cash to low-income parents help them?  What about everybody else?
-## It helps both them and everybody else! Giving money to parents improves earnings and health while reducing crime.
-##### *Adapted from [Garfinkel et al.'s 2022 cost-benefit analysis](https://www.nber.org/papers/w29854)*
-I produced the below table for a report on the expanded child tax credit (CTC).  The numbers are pulled straight from the paper, so this didn't take any fancy quantitative skills.  But I care a lot about poverty and welfare policy, so I couldn't resist including it here!
-
-The CTC is basically free money for parents of children.  The policy already gives most parents about $2000 per child every year.  However, some parents (about 1 in 3) don't make enough money to qualify for the full amount, and others (about 1 in 10) get nothing at all.  If we changed the policy so everybody got the full amount, would it help low-income families?  And what about everybody else - would it benefit U.S. taxpayers more than it would cost them?
-
-Yes on both accounts! Garfinkel et al. looked at a *lot* of studies on what happens when people get more cash and extrapolated the findings to predict what would happen if  low-income parents currently not receiving the full CTC became eligible.  They found the policy change could create net economic benefits far exceeding the policy's costs.  Most of those benefits come from:
-1. Increases in children's future productivity and earnings,
-2. Decreases in burdens on the healthcare system, and
-3. Reductions in crime and its associated costs.
-<br/>
-<img src="/img/garf_national.png" width="1972" />
-<br/> <br/> <br/>
-
 <a name="vod"></a>
-# 6. Do North Carolina traffic stop data contain evidence of racial discrimination?
+# 5. Do North Carolina traffic stop data contain evidence of racial discrimination?
 ## According to the analysis below, no, but confounding variables remain.
 ##### *Replication of a [2020 paper by Pierson et al.](https://www.nature.com/articles/s41562-020-0858-1) employing the "veil of darkness" test*
 I used Pierson et al.'s data for my analysis, but limited it to a subset from North Carolina.  The complicated nature of the analysis means that interpreting the plot takes some work, but I think it’s worth it! (Well, for *their* paper at least - you can decide if it's worth it for mine)
@@ -138,6 +121,6 @@ There are lots of reasons Pierson et al.'s results might fail to replicate for t
 <br/> <br/> <br/>
 
 <a name="dogs"></a>
-# 7. We all love dogs right?
+# 6. We all love dogs right?
 Corgis have put in the work, but Labs still reign supreme! My condolences to the yorkshire terriers.
 <img src="/img/dogs.png" width="800px" />
