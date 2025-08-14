@@ -2,7 +2,7 @@ A sample of my data analysis and visualization work
 ================
 Justin Giles
 
-I spent many late nights coding during the first year of my MPP.  Here are some of the fruits of that labor!
+I spent many late nights coding over the last four years.  Here are some of the fruits of that labor!
 
 *I've tried to include something for everyone here.  There are complicated regression output tables that you probably need some academic background to understand, but there are also lines on graphs that go up (or down, as the case may be).  Enjoy!*
 
